@@ -6,7 +6,7 @@ import Foundation
 var array : [Int] = [5,5,4,6,8,9,77]
 
 func verificaCinco (_ numero: [Int]) -> Bool {
-    if numero[0] == 5 && numero.last == 5{
+    if numero[0] == 5 || numero.last == 5{
     return true
     } else {
         return false
